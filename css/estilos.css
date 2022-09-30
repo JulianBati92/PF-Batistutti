@@ -14,11 +14,14 @@ body a{
 }
   
 
-header{
-    width: auto;
-    height: auto;
-    background-color: #9d592f;
-}
+/* header{
+    background-image: url("../assets/images/fotomate-1000x600.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+} */
 
 header a {
     color:black;
@@ -27,13 +30,14 @@ header a {
 
 
 main{
-    background-image: url("../assets/images/fotomate-1000x600.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/fotomate-1000x600.jpg");
     background-color: black;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    background-blend-mode: darken;
 }
 
 
