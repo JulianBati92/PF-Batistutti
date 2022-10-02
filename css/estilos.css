@@ -31,7 +31,6 @@ header a {
 
 main{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/fotomate-1000x600.jpg");
-    background-color: black;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
