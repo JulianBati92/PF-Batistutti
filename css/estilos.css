@@ -14,14 +14,14 @@ body a{
 }
   
 
-/* header{
+header{
     background-image: url("../assets/images/fotomate-1000x600.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-} */
+}
 
 header a {
     color:black;
