@@ -21,6 +21,8 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    width: auto;
+    height: auto;
 }
 
 header a {
