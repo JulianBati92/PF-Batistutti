@@ -1,0 +1,22 @@
+main{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/fotomate-1000x600.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    .container {
+        max-width:fit-content;
+    }
+    
+    .animate__animated.animate__slideInLeft {
+        --animate-slow: 10s;
+        --animation-delay: 2s;
+    }
+      
+    :root {
+        --animate-duration: 800ms;
+        --animate-delay: 2s;
+    }
+}
