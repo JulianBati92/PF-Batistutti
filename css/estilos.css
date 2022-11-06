@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'Typewriter';
+    src: url('../assets/fonts/JMH_Typewriter.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 body{
     width: auto;
     height: auto;
     text-align: center;
-
+    font-family: "Typewriter";
 }
 
 body a{
